@@ -1,0 +1,231 @@
+body {
+  font-family: 'Ubuntu';
+}
+
+.containerHeader {
+  font-size: 1rem;
+  background-color: #e0d0d0;
+}
+
+.containerHeader .containerHeader__a:hover {
+  padding: 12px;
+  background: whitesmoke;
+  border: 1px solid #686868;
+  border-radius: 40px;
+}
+
+.containerFooter {
+  background-color: #e0d0d0;
+}
+
+.containerFooter .containerFooter__ul {
+  list-style: none;
+}
+
+.containerFooter .containerFooter__btn {
+  background-color: #ebb95e;
+  border: none;
+}
+
+main {
+  background-color: #f0e4e4;
+}
+
+/************ Index *********************/
+.containerBuscador {
+  width: 90%;
+  height: 60vh;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  background-image: url(../img/background/backgroundbuscador.jpg);
+  background-image: cover;
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+}
+
+.containerBuscador .containerBuscador__h2 {
+  margin: 1rem;
+  padding: 1rem;
+  color: whitesmoke;
+}
+
+.containerBuscador .containerBuscador__btn {
+  margin: 2rem 1rem;
+  padding: 1rem;
+  background-color: #ebb95e;
+  border: 1px grey;
+}
+
+.containerCarrusel {
+  margin: 2rem 4rem;
+}
+
+.containerCarrusel .containerCarrusel__h3 {
+  color: #645a5a;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+}
+
+.containerServicio {
+  margin: 2rem 4rem;
+}
+
+.containerServicio__tarjeta {
+  background-color: #fce1bf;
+}
+
+.containerServicio__tarjeta__p {
+  font-weight: 500;
+}
+
+.containerServicio__tarjeta__btn {
+  background-color: #ebb95e;
+  border: none;
+}
+
+/******************** Fin Index ***********************/
+/******************* Ventas **************************/
+.h1VA {
+  color: #5a5353;
+  text-align: center;
+}
+
+.h2VA {
+  color: #706464;
+  text-align: center;
+}
+
+.containerVentas .containerVentas__btn {
+  background-color: #ebb95e;
+  border: none;
+}
+
+/******************* Fin Ventas **************************/
+/******************* Alquileres **************************/
+.h1VA {
+  color: #5a5353;
+  text-align: center;
+}
+
+.h2VA {
+  color: #706464;
+  text-align: center;
+}
+
+.containerAlquileres .containerAlquileres__btn {
+  background-color: #ebb95e;
+  border: none;
+}
+
+/******************* Fin Alquileres **************************/
+/******************* Emprendimientos **************************/
+table {
+  width: 60%;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+table tr {
+  border: 1px solid;
+}
+
+table tr th {
+  font-size: 1.5rem;
+  border: 1px solid;
+}
+
+table tr td {
+  font-size: 1rem;
+  border: 1px solid;
+}
+
+tr > td > ul {
+  text-align: left;
+  list-style: none;
+}
+
+#rondeau200 {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#rondeau200:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+#esquiu600 {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#esquiu600:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+/******************* Fin Emprendimientos **************************/
+/******************* La Empresa **************************/
+.containerLaEmpresa__h2 {
+  color: #706464;
+}
+
+/******************* Fin La Empresa **************************/
+/******************* Contacto **************************/
+.containerContacto {
+  width: 50%;
+  height: 80%;
+  background-color: #e4cd90;
+  border: 1px solid grey;
+  border-radius: 6px;
+}
+
+.containerContacto__h1 {
+  color: #5a5353;
+  text-align: center;
+}
+
+.containerContacto__h2 {
+  font-size: 1rem;
+  color: #706464;
+  text-align: center;
+}
+
+.containerContacto__btn {
+  border-radius: 40px;
+  background-color: white;
+  border: none;
+}
+
+/******************* Fin Contacto **************************/
+/******************* Media Queries *************************/
+@media only screen and (max-width: 768px) {
+  .buscador {
+    width: 90%;
+    height: 70vh;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .containerBuscador {
+    width: 100%;
+    height: 72vh;
+    margin-bottom: 3rem;
+  }
+  table {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  table {
+    width: auto;
+  }
+}
+
+/******************* Fin Media Queries *************************/
