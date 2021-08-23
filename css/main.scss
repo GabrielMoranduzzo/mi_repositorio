@@ -40,7 +40,7 @@ main {
     background-image: cover;
     border: 1px solid grey;
     border-radius: 0.5rem;
-    .containerBuscador__h2 {
+    .containerBuscador__h1 {
         margin: 1rem;
         padding: 1rem;
         color: whitesmoke;
@@ -56,11 +56,15 @@ main {
 
 .containerCarrusel {
     margin: 2rem 4rem;
+    text-align: center;
     .containerCarrusel__h3 {
         color: $h3color;
         font-size: $font-sizeH;
         border-radius: 0.5rem;
-    }    
+    }  
+    .containerCarrusel__heigthImg{
+        height: 25rem;
+    }  
 }
 
 

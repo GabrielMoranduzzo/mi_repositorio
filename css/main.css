@@ -45,7 +45,7 @@ main {
   border-radius: 0.5rem;
 }
 
-.containerBuscador .containerBuscador__h2 {
+.containerBuscador .containerBuscador__h1 {
   margin: 1rem;
   padding: 1rem;
   color: whitesmoke;
@@ -60,12 +60,17 @@ main {
 
 .containerCarrusel {
   margin: 2rem 4rem;
+  text-align: center;
 }
 
 .containerCarrusel .containerCarrusel__h3 {
   color: #645a5a;
   font-size: 2rem;
   border-radius: 0.5rem;
+}
+
+.containerCarrusel .containerCarrusel__heigthImg {
+  height: 25rem;
 }
 
 .containerServicio {
