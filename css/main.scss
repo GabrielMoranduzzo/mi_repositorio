@@ -96,10 +96,13 @@ main {
  
 
 .containerVentas {
+    .containerVentas__heightImg {
+        height: 209px;
+    }
     .containerVentas__btn {
         background-color: $background-colorBtn;
         border: none;
-    }
+    } 
 }
 /******************* Fin Ventas **************************/
 
@@ -116,6 +119,9 @@ main {
 }
 
 .containerAlquileres {
+    .containerAlquileres__heightImg{
+        height: 209px;
+    }
     .containerAlquileres__btn {
         background-color: $background-colorBtn;
         border: none;

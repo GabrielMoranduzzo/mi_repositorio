@@ -102,6 +102,10 @@ main {
   text-align: center;
 }
 
+.containerVentas .containerVentas__heightImg {
+  height: 209px;
+}
+
 .containerVentas .containerVentas__btn {
   background-color: #ebb95e;
   border: none;
@@ -117,6 +121,10 @@ main {
 .h2VA {
   color: #706464;
   text-align: center;
+}
+
+.containerAlquileres .containerAlquileres__heightImg {
+  height: 209px;
 }
 
 .containerAlquileres .containerAlquileres__btn {
