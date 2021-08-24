@@ -221,10 +221,45 @@ tr > td > ul {
 .containerContacto__map {
   margin-left: 6%;
   margin-top: 2%;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.containerContacto__map iframe {
+  margin-top: 3rem;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 /******************* Fin Contacto **************************/
 /******************* Media Queries *************************/
+@media only screen and (max-width: 425px) {
+  .containerBuscador {
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+  }
+  .containerServicio {
+    margin: 1rem;
+    padding: 0;
+  }
+  .containerTable {
+    display: block;
+    overflow-x: auto;
+  }
+  .containerContacto__form {
+    margin: 0;
+  }
+  .containerContacto__map {
+    margin: 0;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .buscador {
     width: 90%;
@@ -237,12 +272,6 @@ tr > td > ul {
     height: 72vh;
     margin-bottom: 3rem;
   }
-  table {
-    width: auto;
-  }
-}
-
-@media only screen and (max-width: 992px) {
   table {
     width: auto;
   }
