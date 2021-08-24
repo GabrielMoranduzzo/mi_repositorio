@@ -48,10 +48,10 @@
         </div>
     </nav>
 </header>
-<main class=" pb-5 pt-5">
-  <div class="container containerContacto">
-    <div class="row justify-content-center mt-3">
-      <div class="col-9 contacto mt-3 mb-3">
+<main class=" pb-5 pt-3">
+  <div class="container-fluid containerContacto">
+    <div class="row justify-content-start mt-3">
+      <div class="col-sm-12 col-md-6 col-lg-4 contacto  containerContacto__form">
         <h1 class="containerContacto__h1">Contacto</h1>
         <h2 class="containerContacto__h2 mb-3">Dejanos tus datos y nos contactaremos a la brevedad</h2>
       <div class="mb-3">
@@ -71,8 +71,12 @@
         <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu consulta aquí" rows="3"></textarea>
       </div>
       <div>
-        <button type="button" class="containerContacto__btn btn btn-warning btnContacto mb-3">Enviar consulta</button> 
+        <button type="button" class="containerContacto__btn btn btn-warning btnContacto mb-3">Enviar</button> 
       </div>   
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 containerContacto__map">
+        <h2 class="h2VA">Dónde ubicarnos</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.7885840073977!2d-64.18146618530703!3d-31.392392502232035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329869a40edf59%3A0x4d248b57880a9e63!2sJuan%20A.%20Sarachaga%20369%2C%20X5001%20AMG%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1629668517374!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
     </div>
   </div>
@@ -80,13 +84,13 @@
 <footer>
   <div class="containerFooter container-fluid">
     <div class="row">
-      <div class="col-md-6 col-lg-4">
+      <div class="col-sm-12 col-md-9 col-lg-4">
         <ul class="containerFooter__ul">
           <li> <img class="img-fluid mt-4 mb-4 ml-5" src="./img/logoNuevo.png" alt="" height="300px" width="360px"> </li>
           <li> <i class="bi bi-facebook "></i> <i class="bi bi-instagram "></i> <i class="bi bi-linkedin "></i> </li>
         </ul>
       </div>
-      <div class="col-md-6 col-lg-4">
+      <div class="col-sm-12 col-md-9 col-lg-4">
         <ul class="containerFooter__ul">
           <li class="mt-5 mb-2"> <i class="bi bi-geo-alt"></i> Sarachaga 369, Alta Cordoba, Cordoba </li>
           <li class="mb-2"> <i class="bi bi-clock"></i> Lunes a Viernes: 9hs a 17hs </li>
@@ -94,7 +98,7 @@
           <li class="mb-2"> <i class="bi bi-envelope"></i> gmserviciosinmobiliarios@gmail.com</li>
         </ul>
       </div>
-      <div class="col-md-6 col-lg-4">
+      <div class="col-sm-12 col-md-9 col-lg-4">
         <h4 class="mt-3">Deseo subscribirme al Newsletter</h4>  
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Email</label>

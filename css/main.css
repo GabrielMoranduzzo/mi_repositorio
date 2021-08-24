@@ -162,43 +162,39 @@ tr > td > ul {
 }
 
 #rondeau200 {
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 #rondeau200:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   cursor: pointer;
 }
 
 #esquiu600 {
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 #esquiu600:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   cursor: pointer;
 }
 
 /******************* Fin Emprendimientos **************************/
 /******************* La Empresa **************************/
+.h1VA {
+  color: #5a5353;
+}
+
 .containerLaEmpresa__h2 {
   color: #706464;
 }
 
 /******************* Fin La Empresa **************************/
 /******************* Contacto **************************/
-.containerContacto {
-  width: 50%;
-  height: 80%;
-  background-color: #e4cd90;
-  border: 1px solid grey;
-  border-radius: 6px;
-}
-
 .containerContacto__h1 {
   color: #5a5353;
   text-align: center;
@@ -214,6 +210,17 @@ tr > td > ul {
   border-radius: 40px;
   background-color: white;
   border: none;
+}
+
+.containerContacto__form {
+  margin-left: 8%;
+  border: 1px solid grey;
+  border-radius: 6px;
+}
+
+.containerContacto__map {
+  margin-left: 6%;
+  margin-top: 2%;
 }
 
 /******************* Fin Contacto **************************/

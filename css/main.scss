@@ -158,19 +158,19 @@ tr > td > ul {
 
 
 #rondeau200 {
-    transition: all 0.4s;
+    transition: all 0.4s ease-out;
 }
 #rondeau200:hover {
-    transform:scale(1.1);
+    transform:scale(1.2);
     cursor: pointer;
 }
 
 
 #esquiu600 {
-    transition: all 0.4s;
+    transition: all 0.4s ease-out;
 }
 #esquiu600:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     cursor: pointer;
 }
 
@@ -178,7 +178,10 @@ tr > td > ul {
 /******************* Fin Emprendimientos **************************/
 
 /******************* La Empresa **************************/
-   
+.h1VA {
+    color: $h1VentaAlquiler;
+} 
+
 .containerLaEmpresa__h2 {
         color: $h2VentaAlquiler;
     }
@@ -188,11 +191,6 @@ tr > td > ul {
 
 /******************* Contacto **************************/
 .containerContacto {
-    width: $widthForm/2;
-    height: 80%;
-    background-color: rgb(228, 205, 144);
-    border: 1px solid grey;
-    border-radius: 6px;
     &__h1 {
         color: $h1VentaAlquiler;
         text-align: center;
@@ -206,6 +204,15 @@ tr > td > ul {
         border-radius: 40px;
         background-color: white;
         border: none;
+    }
+    &__form {
+        margin-left: 8%;
+        border: 1px solid grey;
+        border-radius: 6px;
+    }
+    &__map {
+        margin-left: 6%;
+        margin-top: 2%;
     }
 }
 
