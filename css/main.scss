@@ -27,6 +27,9 @@ main {
     background-color: $background-colorMain;
 }
 
+.active {
+    font-weight: 600;
+}
 
 /************ Index *********************/
 .containerBuscador {
@@ -187,6 +190,7 @@ tr > td > ul {
     }
 
 
+
 /******************* Fin La Empresa **************************/
 
 /******************* Contacto **************************/
@@ -240,10 +244,7 @@ tr > td > ul {
         height:90vh;
         margin: 0;
     }
-    .containerBuscador__btn {
-      ;
-    }
-
+    
     .containerServicio {
         margin: 1rem;
         padding: 0;
