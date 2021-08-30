@@ -105,6 +105,7 @@ main {
     .containerVentas__btn {
         background-color: $background-colorBtn;
         border: none;
+        border-radius: 20px;
     } 
 }
 /******************* Fin Ventas **************************/
@@ -128,44 +129,26 @@ main {
     .containerAlquileres__btn {
         background-color: $background-colorBtn;
         border: none;
+        border-radius: 20px;
     }
 }
 /******************* Fin Alquileres **************************/
 
 
 /******************* Emprendimientos **************************/
-table {
-    width: $widthTable+10%;
-    text-align: center;
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 10px;
-    tr {
-        border: 1px solid;
-        th {
-            font-size: 1.5rem;
-            border: 1px solid;
-        }
-        td {
-            font-size: 1rem;
-            border: 1px solid;
-        }
-    }
-} 
 
-
-tr > td > ul {
+.containerEmprendimientos__p {
     text-align: left;
-    list-style: none;
 }
-
+.containerEmprendimientos__imagen {
+    border-radius: 6px; 
+}
 
 #rondeau200 {
     transition: all 0.4s ease-out;
 }
 #rondeau200:hover {
     transform:scale(1.2);
-    cursor: pointer;
 }
 
 
@@ -174,7 +157,13 @@ tr > td > ul {
 }
 #esquiu600:hover {
     transform: scale(1.2);
-    cursor: pointer;
+}
+
+#obispoTrejo596 {
+    transition:all 0.4s ease-out ;
+}
+#obispoTrejo596:hover {
+    transform: scale(1.2);
 }
 
 
