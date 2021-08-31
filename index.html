@@ -20,7 +20,7 @@
   <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="containerHeader container-fluid">
-              <a class="navbar-brand" href="index.html"><img class="img-fluid" src="./img/logoFinal.png" alt=""></a>
+              <a class="navbar-brand" href="index.html"><img class="img-fluid containerHeader__logo" src="./img/logoFinal.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -105,7 +105,7 @@
       <section class="servicios">
         <div class="containerCarrusel pt-5">
           <div class="row Servicios justify-content-center">
-            <div class="col-sm-12 col-md-12 col-lg-9 ">
+            <div class="col-sm-12 col-md-12 col-lg-8 ">
               <h3 class="containerCarrusel__h3 text-center">Propiedades Destacadas en Venta</h3>
               <div id="primerSlider" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -143,7 +143,7 @@
                 </button>
                 </div>
                   </div>
-            <div class="col-sm-12 col-md-12 col-lg-9">
+            <div class="col-sm-12 col-md-12 col-lg-8">
               <h3 class="containerCarrusel__h3 mt-5 mb2 text-center">Propiedades Destacadas en Alquiler</h3>
               <div id="segundoSlider" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -181,7 +181,7 @@
                   </button>
               </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-9">
+            <div class="col-sm-12 col-md-12 col-lg-6">
               <h3 class="containerCarrusel__h3 mt-5 text-center">Emprendimientos 2021</h3>
               <div id="tercerSlider" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -202,6 +202,12 @@
                     <p>Desarrollo Inmobiliario - Esquiu 600</p>
                   </div>
                 </div>
+                <div class="carousel-item">
+                  <img src="./img/emprendimientos/emprendimientos6.jpg" class="d-block w-100 containerCarrusel__heigthImg" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Desarrollo Inmobiliario - Obispo Trejo 596</p>
+                  </div>
+                </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#tercerSlider" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -217,18 +223,19 @@
         </div>
       </section>
       <section>
-        <div class="containerServicio mb-0">
-          <div class="row">
-            <div class="col-sm-12 col-md-3 mb-5">
-              <div class="containerServicio__tarjeta card" style="width: 18rem;">
-                <img src="./img/background/background2tarjeta.jpg" class="card-img-top" alt="...">
+        <div class="containerServicio">
+          <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-12 col-lg-8 text-center mt-3 mb-5">
+              <div class="card containerServicio__tarjeta">
+                <div class="card-header">
+                 <h5 class="containerServicio__h5"> Servicios</h5> 
+                </div>
                 <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="containerServicio__tarjeta__p card-text">Necesitas que te ayudemos a tasar, vender o alquilar tu propiedad?</p>
-                <a href="#" class="containerServicio__tarjeta__btn btn btn-primary btnGral">Presiona acá</a>
+                  <p class="card-text containerServicio__p">Necesitas que te ayudemos a tasar, vender o alquilar tu propiedad?.</p>
+                  <a href="./contactoFormulario.html" class="btn btn-primary containerServicio__btn">Presiona aquí</a>
+                </div>
               </div>
             </div>
-          </div>
         </div>
         </div>
       </section>

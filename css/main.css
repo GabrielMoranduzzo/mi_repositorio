@@ -27,6 +27,11 @@ body {
   border: none;
 }
 
+.containerFooter__btn:hover {
+  background-color: white;
+  color: #ebb95e;
+}
+
 main {
   background-color: #f0e4e4;
 }
@@ -44,7 +49,6 @@ main {
   margin-bottom: 3rem;
   padding: 1rem;
   background-image: url(../img/background/backgroundbuscador.jpg);
-  background-image: cover;
   border: 1px solid grey;
   border-radius: 0.5rem;
 }
@@ -56,10 +60,17 @@ main {
 }
 
 .containerBuscador .containerBuscador__btn {
-  margin: 2rem 1rem;
-  padding: 1rem;
+  width: 10rem;
+  margin: 1.5rem;
+  padding: 0.5rem;
   background-color: #ebb95e;
-  border: 1px grey;
+  border: none;
+  border-radius: 12px;
+}
+
+.containerBuscador__btn:hover {
+  background-color: white;
+  color: #ebb95e;
 }
 
 .containerCarrusel {
@@ -77,21 +88,34 @@ main {
   height: 25rem;
 }
 
-.containerServicio {
-  margin: 2rem 4rem;
-}
-
 .containerServicio__tarjeta {
-  background-color: #fce1bf;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 7, 12, 0.6)), to(rgba(5, 7, 12, 0.6))), url(../img/background/bgTarjetaServicio.jpg);
+  background: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url(../img/background/bgTarjetaServicio.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.containerServicio__tarjeta__p {
+.containerServicio__h5 {
+  font-size: 2rem;
   font-weight: 500;
+  color: white;
 }
 
-.containerServicio__tarjeta__btn {
+.containerServicio__p {
+  font-weight: 500;
+  color: white;
+}
+
+.containerServicio__btn {
   background-color: #ebb95e;
   border: none;
+  margin-top: 10%;
+}
+
+.containerServicio__btn:hover {
+  background-color: white;
+  color: #ebb95e;
 }
 
 /******************** Fin Index ***********************/
@@ -234,10 +258,16 @@ main {
 /******************* Fin Contacto **************************/
 /******************* Media Queries *************************/
 @media only screen and (max-width: 425px) {
+  .containerHeader__logo {
+    width: 70%;
+  }
   .containerBuscador {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     margin: 0;
+  }
+  .containerBuscador__btn {
+    margin: 0 !important;
   }
   .containerServicio {
     margin: 1rem;
