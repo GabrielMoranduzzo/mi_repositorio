@@ -4,7 +4,11 @@ body {
 
 .containerHeader {
   font-size: 1rem;
-  background-color: #e0d0d0;
+  background-color: #297373;
+}
+
+.containerHeader .containerHeader__a {
+  font-weight: bolder !important;
 }
 
 .containerHeader .containerHeader__a:hover {
@@ -15,7 +19,7 @@ body {
 }
 
 .containerFooter {
-  background-color: #e0d0d0;
+  background-color: #297373;
 }
 
 .containerFooter .containerFooter__ul {
@@ -33,7 +37,7 @@ body {
 }
 
 main {
-  background-color: #f0e4e4;
+  background-color: #c6b89e;
 }
 
 .active {
@@ -82,10 +86,6 @@ main {
   color: #645a5a;
   font-size: 2rem;
   border-radius: 0.5rem;
-}
-
-.containerCarrusel .containerCarrusel__heigthImg {
-  height: 25rem;
 }
 
 .containerServicio__tarjeta {
@@ -233,7 +233,7 @@ main {
 
 .containerContacto__form {
   margin-left: 8%;
-  border: 1px solid grey;
+  border: 1px solid black;
   border-radius: 6px;
   height: 60%;
 }
@@ -268,6 +268,9 @@ main {
   }
   .containerBuscador__btn {
     margin: 0 !important;
+  }
+  .containerCarrusel__heigthImg {
+    height: 10rem;
   }
   .containerServicio {
     margin: 1rem;
