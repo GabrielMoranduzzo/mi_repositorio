@@ -8,6 +8,7 @@ body {
 }
 
 .containerHeader .containerHeader__a {
+  font-size: 1.5rem;
   font-weight: bolder !important;
 }
 
@@ -26,6 +27,10 @@ body {
   list-style: none;
 }
 
+.containerFooter .containerFooter__a {
+  color: black !important;
+}
+
 .containerFooter .containerFooter__btn {
   background-color: #ebb95e;
   border: none;
@@ -34,6 +39,15 @@ body {
 .containerFooter__btn:hover {
   background-color: white;
   color: #ebb95e;
+}
+
+.bi-facebook {
+  margin-left: 2rem;
+  margin-right: 3rem;
+}
+
+.bi-instagram {
+  margin-right: 3rem;
 }
 
 main {
@@ -88,6 +102,10 @@ main {
   border-radius: 0.5rem;
 }
 
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 .containerServicio__tarjeta {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 7, 12, 0.6)), to(rgba(5, 7, 12, 0.6))), url(../img/background/bgTarjetaServicio.jpg);
   background: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url(../img/background/bgTarjetaServicio.jpg);
@@ -105,6 +123,7 @@ main {
 .containerServicio__p {
   font-weight: 500;
   color: white;
+  font-size: 1.4rem;
 }
 
 .containerServicio__btn {
@@ -298,10 +317,30 @@ main {
   .containerBuscador {
     width: 100%;
     height: 72vh;
-    margin-bottom: 3rem;
+    margin-bottom: 3%;
+    margin-left: 3%;
   }
-  table {
-    width: auto;
+  .containerVentas__tarjetas {
+    margin-left: 3%;
+  }
+  .containerAlquileres__tarjetas {
+    margin-left: 3%;
+  }
+  .containerServicio__Card {
+    margin: 3%;
+  }
+  .containerLaEmpresa__h2 {
+    text-align: center;
+    margin-top: 5%;
+  }
+  .containerContacto__form {
+    width: 90%;
+    margin: 2%;
+    margin-left: 5%;
+  }
+  .containerContacto__map {
+    width: 80%;
+    margin-left: 9%;
   }
 }
 
