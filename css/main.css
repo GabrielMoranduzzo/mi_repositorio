@@ -31,6 +31,14 @@ body {
   color: black !important;
 }
 
+.containerFooter .containerFooter__iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-left: 4%;
+}
+
 .containerFooter .containerFooter__btn {
   background-color: #ebb95e;
   border: none;
@@ -276,6 +284,61 @@ main {
 
 /******************* Fin Contacto **************************/
 /******************* Media Queries *************************/
+@media only screen and (max-width: 320px) {
+  .navbar-brand {
+    width: 75%;
+  }
+  .containerHeader__logo {
+    width: 70%;
+  }
+  .containerBuscador {
+    width: 100%;
+    height: 100vh;
+    margin-left: 0 !important;
+  }
+  .containerBuscador__btn {
+    margin: 0 !important;
+  }
+  .containerCarrusel__h3 {
+    font-size: 1.6rem !important;
+  }
+  .containerCarrusel__heigthImg {
+    height: 10rem;
+  }
+  .containerServicio {
+    margin: 1rem;
+    padding: 0;
+  }
+  .containerVentas__card {
+    width: 16rem !important;
+    height: 25rem !important;
+  }
+  .containerAlquileres__card {
+    width: 16rem !important;
+    height: 25rem !important;
+  }
+  .containerLaEmpresa__img {
+    margin-top: 5% !important;
+    margin-bottom: 10%;
+  }
+  .containerContacto__form {
+    margin-top: 2% !important;
+    margin-bottom: 10% !important;
+  }
+  .containerContacto__map {
+    margin-bottom: 10% !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .containerVentas__card {
+    margin-left: 3% !important;
+  }
+  .containerAlquileres__card {
+    margin-left: 3% !important;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .containerHeader__logo {
     width: 70%;
@@ -283,7 +346,8 @@ main {
   .containerBuscador {
     width: 100%;
     height: 100vh;
-    margin: 0;
+    margin: 1.5% !important;
+    padding-top: 1%;
   }
   .containerBuscador__btn {
     margin: 0 !important;
@@ -295,15 +359,18 @@ main {
     margin: 1rem;
     padding: 0;
   }
-  .containerTable {
-    display: block;
-    overflow-x: auto;
+  .containerVentas__card {
+    margin-left: 8%;
+  }
+  .containerAlquileres__card {
+    margin-left: 8%;
   }
   .containerContacto__form {
-    margin: 0;
+    margin-top: 2% !important;
+    margin-bottom: 10% !important;
   }
   .containerContacto__map {
-    margin: 0;
+    margin-bottom: 10% !important;
   }
 }
 
@@ -319,6 +386,9 @@ main {
     height: 72vh;
     margin-bottom: 3%;
     margin-left: 3%;
+  }
+  .containerCarrusel {
+    padding-top: 10% !important;
   }
   .containerVentas__tarjetas {
     margin-left: 3%;
@@ -341,6 +411,16 @@ main {
   .containerContacto__map {
     width: 80%;
     margin-left: 9%;
+  }
+  .containerFooter__row {
+    padding-left: 22%;
+    padding-bottom: 5%;
+  }
+  .containerFooter__img {
+    width: 20rem;
+  }
+  .containerFooter__iconos {
+    padding-left: 14% !important;
   }
 }
 
