@@ -434,14 +434,32 @@ main {
     .containerHeader__logo{
         width: 70%;
     }
-    
-    .containerCarrusel__h3 {
-        font-size: 1.6rem !important;
+
+     .containerCarrusel__h3 {
+    font-size: 1.6rem !important;
+  }
+
+    .buscador {
+        margin-left: 3%;
+    }  
+
+    .containerVentas__tarjetas {
+        margin-left: 0;
+        padding-left: 0;
     }
 
     .containerVentas__card {
         width: 16rem !important;
         height: 25rem !important;
+    }
+
+    .containerVentas__tarjetas {
+        padding-left: 4%;
+    }
+
+    .containerAlquileres__tarjetas {
+        margin-left: 0;
+        padding-left: 0;
     }
 
     .containerAlquileres__card {
