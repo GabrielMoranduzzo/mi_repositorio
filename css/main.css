@@ -72,7 +72,7 @@ main {
 .containerBuscador {
   width: 90%;
   height: 60vh;
-  margin-left: 3rem;
+  margin-left: 5rem;
   margin-top: 1rem;
   margin-bottom: 3rem;
   padding: 1rem;
@@ -435,9 +435,6 @@ main {
   .containerVentas__card {
     width: 16rem !important;
     height: 25rem !important;
-  }
-  .containerVentas__tarjetas {
-    padding-left: 4%;
   }
   .containerAlquileres__tarjetas {
     margin-left: 0;
