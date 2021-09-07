@@ -20,6 +20,8 @@
     background-color: $background-colorHeaderFooter;
     .containerFooter__ul {
         list-style: none;
+        margin: 0 !important;
+        padding: 0 !important;
     }
     .containerFooter__a{
         color: black !important;
@@ -74,6 +76,7 @@ main {
         margin: 1rem;
         padding: 1rem;
         color: whitesmoke;
+        text-align: center;
     }
     .containerBuscador__btn {
         width: 10rem;
@@ -89,6 +92,13 @@ main {
     background-color: white;
     color: rgb(235, 185, 94);
 } 
+
+.buscador {
+    width: 90%;
+    height: 70vh;
+    margin: 0 2.5%;
+    padding: 1rem;
+}
 
 .containerCarrusel {
     margin: 2rem 4rem;
@@ -158,6 +168,9 @@ main {
         background-color: $background-colorBtn;
         border: none;
         border-radius: 20px;
+    }
+    .containerVentas__tarjetas {
+        text-align: center;
     } 
 }
 /******************* Fin Ventas **************************/
@@ -182,6 +195,9 @@ main {
         background-color: $background-colorBtn;
         border: none;
         border-radius: 20px;
+    }
+    .containerAlquileres__tarjetas {
+        text-align: center;
     }
 }
 /******************* Fin Alquileres **************************/
@@ -279,123 +295,11 @@ main {
 
 /******************* Media Queries *************************/
 
-@media only screen and (max-width: 320px) {
-    .navbar-brand {
-        width: 75%;
-    }
-    
-    .containerHeader__logo{
-        width: 70%;
-    }
-    .containerBuscador {
-        width: 100%;
-        height:100vh;
-        margin-left: 0 !important;
-    }
-    .containerBuscador__btn {
-        margin: 0 !important;
-    }
-    
-    .containerCarrusel__h3 {
-        font-size: 1.6rem !important;
-    }
-    .containerCarrusel__heigthImg {
-        height: 10rem;
-    }
-
-    .containerServicio {
-        margin: 1rem;
-        padding: 0;
-    }
-
-    .containerVentas__card {
-        width: 16rem !important;
-        height: 25rem !important;
-    }
-
-    .containerAlquileres__card {
-        width: 16rem !important;
-        height: 25rem !important;
-    }
-
-    .containerLaEmpresa__img {
-        margin-top: 5% !important;
-        margin-bottom: 10%;
-    }
-
-    .containerContacto__form{
-      margin-top: 2% !important;
-      margin-bottom: 10% !important;
-    }
-
-    .containerContacto__map{
-        margin-bottom: 10% !important;
-    }
-  }
-
-  
- 
-@media only screen and (max-width: 375px) {
-    .containerVentas__card {
-        margin-left: 3% !important;
-    }
-
-    .containerAlquileres__card {
-        margin-left: 3% !important;
-        
-    }
-  }
- 
-
-
-@media only screen and (max-width: 425px) {
-    .containerHeader__logo{
-        width: 70%;
-    }
-    .containerBuscador {
-        width: 100%;
-        height:100vh;
-        margin: 1.5% !important;
-        padding-top: 1%;
-    }
-    .containerBuscador__btn {
-        margin: 0 !important;
-    }
-    
-    .containerCarrusel__heigthImg {
-        height: 10rem;
-    }
-
-    .containerServicio {
-        margin: 1rem;
-        padding: 0;
-    }
-
-    .containerVentas__card {
-        margin-left: 8% ;
-    }
-
-    .containerAlquileres__card {
-        margin-left: 8%;
-        
-    }
-
-    .containerContacto__form{
-        margin-top: 2% !important;
-        margin-bottom: 10% !important;
-    }
-  
-      .containerContacto__map{
-          margin-bottom: 10% !important;
-    }
-  }
-
-
 @media only screen and (max-width: 768px) {
     .buscador {
         width: 90%;
         height: 70vh;
-        margin: 1rem;
+        margin:0 1rem;
         padding:1rem;
     }
     .containerBuscador {
@@ -418,7 +322,7 @@ main {
     }
 
     .containerServicio__Card {
-        margin: 3%;
+        margin: 0 3%;
     }
 
     .containerLaEmpresa__h2 {
@@ -429,6 +333,7 @@ main {
     .containerContacto__form{
         width: 90%;
         margin: 2%;
+        margin-top: 0 !important;
         margin-left: 5%;
     }
   
@@ -438,7 +343,7 @@ main {
     }
 
     .containerFooter__row {
-        padding-left: 22%;
+        padding-left: 28%;
         padding-bottom: 5%;
     }
     .containerFooter__img {
@@ -449,6 +354,110 @@ main {
     }
   }
 
+  @media only screen and (max-width: 425px) {
+    .containerHeader__logo{
+        width: 70%;
+    }
+    .containerBuscador {
+        width: 100%;
+        height: 75vh;
+        margin: 1.5% !important;
+        padding-top: 1%;
+    }
+    .containerBuscador__btn {
+        margin: 0 !important;
+    }
+    
+    .buscador {
+        margin: 0 1rem;
+        padding: 1rem;
+    }
 
+    .containerCarrusel__heigthImg {
+        height: 10rem;
+    }
 
-/******************* Fin Media Queries *************************/
+    .containerServicio {
+        margin: 0 1rem;
+        padding: 0;
+    }
+
+    .containerVentas__card {
+        margin-left: 8% ;
+    }
+
+    .containerAlquileres__card {
+        margin-left: 8%;
+        
+    }
+
+    .containerContacto__form{
+        margin-top: 2% !important;
+        margin-bottom: 10% !important;
+    }
+  
+    .containerContacto__map{
+        margin-bottom: 10% !important;
+    }
+
+    .containerFooter__row {
+        padding: 0;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    .containerFooter__iconos {
+        justify-content: center;
+        padding-right: 22%;
+    }
+
+    .containerFooter__img {
+        width: 16rem;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .containerVentas__card {
+        margin-left: 3% !important;
+    }
+
+    .containerAlquileres__card {
+        margin-left: 3% !important;
+    }
+  }
+
+@media only screen and (max-width: 320px) {
+    .navbar-brand {
+        width: 75%;
+    }
+    
+    .containerHeader__logo{
+        width: 70%;
+    }
+    
+    .containerCarrusel__h3 {
+        font-size: 1.6rem !important;
+    }
+
+    .containerVentas__card {
+        width: 16rem !important;
+        height: 25rem !important;
+    }
+
+    .containerAlquileres__card {
+        width: 16rem !important;
+        height: 25rem !important;
+    }
+
+    .containerLaEmpresa__img {
+        margin-top: 5% !important;
+        margin-bottom: 10%;
+    }
+
+    .containerFooter__img {
+        width: 14rem;
+    }
+  }
+
+  
+ 
